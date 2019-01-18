@@ -1,0 +1,76 @@
+.pagesort {
+    padding-left: 0
+}
+
+.pagesortR {
+    padding-right: 0
+}
+
+td.details-control {
+    background: url('/Images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('/Images/details_close.png') no-repeat center center;
+}
+
+.nodisplay {
+    display:none;
+}
+
+.wb {
+    word-break:break-all;
+}
+
+.noresize {
+    resize:none;
+}
+
+.width5p {
+    width:5%;
+}
+
+.width20 {
+    width:20px;
+}
+
+.width15 {
+    width:15px;
+}
+
+.width115 {
+    width:115px;
+}
+
+.width150 {
+    width:150px;
+}
+
+.width550 {
+    width:550px;
+}
+
+.widthcomplete {
+    width: 100% !important;
+}
+
+.displayinline {
+    display: inline;
+}
+
+.rightside {
+    float: right;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.table td {
+    max-width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    overflow: hidden;
+}
